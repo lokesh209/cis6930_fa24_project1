@@ -1,4 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pypdf = "*"
+pandas = "*"
+regex = "*"
+pytest = "*"
+pypdf2 = "*"
+sqlalchemy = "*"
+
+[dev-packages]
 [packages]
 spacy = "*"
-numpy = "*"
-en_core_web_sm = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl"}
+pytest = "*"
+en_core_web_md = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl"}
+
+[requires]
+python_version = "3.12.0"
