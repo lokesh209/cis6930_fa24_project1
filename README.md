@@ -12,6 +12,10 @@ This project implements a redaction tool for censoring sensitive information in 
 
 Ensure you have Python 3.12.0  installed.
 
+For installing Pipenv
+
+`pip install pipenv`
+
 Install Required Packages:
  
 `` pip install spacy argparse`` 
