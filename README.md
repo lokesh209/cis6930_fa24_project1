@@ -28,11 +28,15 @@ How to Run
 
 use following command 
 
-``python redactor.py --input <input_files> --output <output_directory> [OPTIONS]``
+``pipenv run python redactor.py --input <input_files> --output <output_directory> [OPTIONS]``
 
 Example
 
-``python redactor.py --input 'docs/*.txt' --names --dates --phones --address --concept 'wine' --output 'redacted_files/' --stats stderr``
+``pipenv run python redactor.py --input ‘docs/1.txt' \
+                    --names --dates --phones --address\
+                    --concept 'kids' \
+                    --output 'files/' \
+                    --stats stderr``
 
 Functions
 
